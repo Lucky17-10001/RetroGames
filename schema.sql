@@ -7,7 +7,7 @@ CREATE TABLE jogos (
     titulo varchar(100) not null,
     plataforma varchar(100) not null,
     desenvolvedora varchar(100) not null,
-    imagem_url varchar(2000) not null,
+    imagem_url text not null,
     preco decimal(10,2) not null,
     data_cadastro timestamp default now() 
 );
